@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="false" classpath="lib/ProgramixGenericLib/ProgramixGenericLib.jar" destdir="javadoc" nodeprecated="true" nodeprecatedlist="true" noindex="true" nonavbar="true" notree="true" packagenames="com.abc.pp.stringhandoff" source="11" sourcepath="src/java" splitindex="false" use="false" version="false"/>
+    </target>
+</project>

@@ -1,0 +1,28 @@
+00:00:00.000|main      |===============================
+00:00:00.004|main      |Entering testPasserShowsUpFirst...
+00:00:00.012|Passer-A  |Passer-A starting
+00:00:00.012|Passer-A  |Taking a 200 ms nap before calling pass("apple")
+00:00:00.013|Receiver-A|Receiver-A starting
+00:00:00.013|Receiver-A|Taking a 1200 ms nap before calling receive()
+00:00:00.216|Passer-A  |Attempting to call pass("apple")
+00:00:01.213|Receiver-A|Attempting to call receive()
+00:00:01.214|Passer-A  |... finished passing
+00:00:01.214|Passer-A  |Passer-A finished
+00:00:01.214|Receiver-A|... back from receive() with message: "apple", as expected (PASSED)
+00:00:01.215|Receiver-A|Receiver-A finished
+00:00:02.513|main      |... leaving testPasserShowsUpFirst
+00:00:02.513|main      |===============================
+00:00:03.013|main      |===============================
+00:00:03.013|main      |Entering testReceiverShowsUpFirst...
+00:00:03.014|Receiver-B|Receiver-B starting
+00:00:03.014|Passer-B  |Passer-B starting
+00:00:03.014|Receiver-B|Taking a 200 ms nap before calling receive()
+00:00:03.014|Passer-B  |Taking a 1200 ms nap before calling pass("banana")
+00:00:03.215|Receiver-B|Attempting to call receive()
+00:00:04.223|Passer-B  |Attempting to call pass("banana")
+00:00:04.224|Passer-B  |... finished passing
+00:00:04.224|Receiver-B|... back from receive() with message: "banana", as expected (PASSED)
+00:00:04.224|Passer-B  |Passer-B finished
+00:00:04.224|Receiver-B|Receiver-B finished
+00:00:05.514|main      |... leaving testReceiverShowsUpFirst
+00:00:05.514|main      |===============================
